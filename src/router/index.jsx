@@ -1,0 +1,12 @@
+// index.jsx
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import '../index.css';
+import AppRouter from './AppRouter';
+
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <AppRouter />  {/* AppRouter sudah mencakup semua routing */}
+  </React.StrictMode>
+);
